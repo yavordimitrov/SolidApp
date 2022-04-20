@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Booking.Api\Booking.Api.csproj" />
+    <ProjectReference Include="..\Reservations.Abstractions\Reservations.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>
